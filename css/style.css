@@ -17,6 +17,8 @@ body {
 }
 
 /* header */
+
+/* nav */
 nav {
     height: 80px;
     margin: auto 30px;
@@ -60,4 +62,37 @@ nav {
     color: white;
     text-decoration: none;
 }
+/* /nav */
+
+/* jumbotron */
+#sfondo-jumbotron {
+    background-color: rgb(63, 127, 143);
+    height: 700px;
+}
+
+#jumbotron {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 74px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.col-sx {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: tomato;
+}
+
+.col-dx {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: blueviolet;
+}
+/* /jumbotron */
 
