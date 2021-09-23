@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,3 +9,55 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* header */
+nav {
+    height: 80px;
+    margin: auto 30px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+#nav-sx {
+    float: left;
+    max-width: 50%;
+}
+
+#logo {
+    transform: translateY(+20%);
+}
+
+.menu {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-dx {
+    float: right;
+    max-width: 50%;
+}
+
+.btn {
+    padding: 6px 16px;
+    background-color: rgb(2, 134, 241);
+    color: white;
+    text-decoration: none;
+}
+
