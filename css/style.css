@@ -67,7 +67,7 @@ nav {
 /* jumbotron */
 #sfondo-jumbotron {
     background-color: rgb(63, 127, 143);
-    height: 700px;
+    height: 845px;
 }
 
 #jumbotron {
@@ -76,23 +76,44 @@ nav {
 }
 
 h1 {
-    font-size: 74px;
+    font-size: 86px;
     font-weight: 800;
     padding-top: 100px;
 }
 
 .col-sx {
     float: left;
-    width: 50%;
+    width: 30%;
     height: 400px;
-    background-color: tomato;
+    padding-right: 50px;
+}
+
+p {
+    font-size: 18px;
+    padding: 30px 0;
+}
+
+#annulla {
+    padding: 15px 0 30px;
+    font-size: 14px;
+}
+
+#freccia {
+    display: block;
+    font-size: 55px;
+    color: black;
 }
 
 .col-dx {
     float: left;
-    width: 50%;
+    width: 70%;
     height: 400px;
-    background-color: blueviolet;
+}
+
+.col-dx img {
+   height: 600px;
+   padding-top: 30px;
+   padding-left: 75px;
 }
 /* /jumbotron */
 
