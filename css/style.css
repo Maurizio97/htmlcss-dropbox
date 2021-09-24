@@ -42,7 +42,7 @@ body {
 nav {
     height: 100%;
     margin: auto 30px;
-    line-height: 40px;
+    line-height: 80px;
     vertical-align: middle;
     
 }
@@ -79,7 +79,7 @@ nav {
 
 .btn {
     padding: 6px 16px;
-    background-color: rgb(2, 134, 241);
+    background-color: rgb(0, 97, 255);
     color: white;
     text-decoration: none;
 }
@@ -87,7 +87,7 @@ nav {
 
 /* jumbotron */
 #sfondo-jumbotron {
-    background-color: rgb(63, 127, 143);
+    background-color: rgb(180, 208, 231);
     height: 845px;
     margin-top: 80px;
 }
@@ -235,7 +235,7 @@ aside .btn {
     font-size: 15px;
 
 }
-hr {
+aside hr {
     margin: 40px 0 55px;
     width: 50px;
 }
@@ -345,6 +345,92 @@ hr {
     margin-top: 100px ;
 }
 /* /section 3 */
+
+/* section 4 */
+
+#section-4 .titolo-section h2 {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+#section-4 .titolo-section {
+    margin-bottom: 50px;
+}
+
+#section-4 a {
+    color: rgb(0, 97, 255);
+    font-weight: bold;
+}
+.squares-principal {
+    width: calc(100% / 3);
+    float: left;
+    height: 480px;
+}
+
+.square {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.square img {
+    max-width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.green {
+    background-color: rgb(162, 211, 155);
+    border: solid 15px rgb(208, 233, 205);
+}
+
+.bordeaux {
+    background-color: rgb(97, 8, 43);
+}
+
+.skyblue {
+    background-color: rgb(0, 147, 206);
+}
+
+.firered {
+    background-color: rgb(255, 28, 28);
+}
+
+.grey {
+    background-color: rgb(180, 208, 231);
+}
+
+.blue {
+    background-color: rgb(13, 36, 129);
+}
+
+.yellow {
+    background-color: rgb(255, 216, 48);
+}
+
+/* quadrato centrale  */
+.squares-principal.center{
+    padding: 0 50px;
+    overflow: auto;
+}
+
+.center img {
+    width: 150px;
+    margin: 50px 0px 30px;
+}
+
+.center hr {
+    width: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* quadrato centrale  */
+
+/* section 4 */
 
 
 /* main */
