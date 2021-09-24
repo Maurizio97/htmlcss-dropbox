@@ -141,7 +141,7 @@ p {
 
 /* main */
 
-.titolo-section {
+.titolo-section#section-1 {
     margin: 220px 0  40px;
 }
 
@@ -165,7 +165,7 @@ aside {
     width: 31%;
     border: solid 1px black;
     min-height: 1000px;
-    margin: 0 0 200px;
+    margin: 0 0 100px;
 }
 
 .title-aside {
@@ -180,7 +180,7 @@ aside {
     font-size: 18px;
 }
 
-.centratura-aside {
+.centratura-contenuto {
     padding: 0 25px;
 }
 
@@ -188,6 +188,13 @@ aside h3 {
     font-size: 30px;
     margin: 30px 0 20px;
 }
+
+.contenuti-piano li {
+    font-size: 14px;
+    list-style-type: none;
+    margin: 20px 0;
+}
+
 .costo {
     font-weight: bold;
     margin: 18px 0;
@@ -199,16 +206,25 @@ aside h3 {
     margin: 18px 0 50px;
 }
 
-li {
+.items-key-points li {
     font-size: 14px;
-    list-style-type: none;
-    margin: 20px 0;
+    list-style-type: '\2713';
+    margin: 20px 0 20px 14px;
+    padding-left: 3px;
 }
+
+::marker {
+    color: rgb(2, 134, 241);
+    font-size: 18px;
+    font-weight: 800;
+}
+
 
 aside .btn {
     margin: 60px 0 30px;
     max-width: 220px;
 }
+
 .acquista-ora {
     margin: 30px 0;
     display: block;
@@ -228,10 +244,109 @@ hr {
     font-size: 20px;
 }
 
-.fa-check {
-    font-size: 15px;
-    color: rgb(2, 134, 241);
+/* contatta ufficio vendite */
+#down-section1 {
+    width: 100%;
+    border: solid 1px black;
 }
+
+#content-down-section1 h3 {
+    font-size: 30px;
+    display: inline-block;
+    max-width: 50%;
+    margin: 20px 0 15px;
+}
+
+#contaier-btn-contatta {
+    display: inline-block;
+    float: right;
+    margin: 27px 0 15px;
+}
+
+#contatta {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+#text-dwn-section div{
+    margin: 0 0 25px;
+    font-weight: bold;
+}
+
+#text-dwn-section span{
+    padding-bottom: 20px;
+    display: inline-block;
+}
+/* /section 1 */
+
+
+/*  section 2*/
+
+#container-section-2 {
+    margin: 150px 0;
+}
+#col-sx {
+    width: 55%;
+    float: left;
+}
+
+#col-sx img {
+    max-width: 100%;
+}
+
+#col-dx {
+    width: 45%;
+    padding: 40px;
+    float: left;
+}
+
+.title-section {
+    font-size: 30px;
+}
+
+.text-section {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.white-black {
+    border: solid 1px black;
+    display: block;
+    background-color: white;
+    color: black;
+    width: 170px;
+    text-align: center;
+}
+/*  /section 2*/
+
+/* section 3 */
+#section-3 {
+    margin: 150px auto;
+}
+
+.col {
+    width: 29%;
+    float: left;
+}
+
+.col img {
+    max-width: 100%;
+}
+
+.margin-col-2 {
+    margin: 0 6.5%;
+}
+
+.text-section > span {
+    text-decoration: underline;
+}
+
+#row-2 {
+    margin-top: 100px ;
+}
+/* /section 3 */
+
+
 /* main */
 
 
