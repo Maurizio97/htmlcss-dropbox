@@ -257,7 +257,7 @@ aside hr {
     margin: 20px 0 15px;
 }
 
-#contaier-btn-contatta {
+#contanier-btn-contatta {
     display: inline-block;
     float: right;
     margin: 27px 0 15px;
@@ -499,4 +499,44 @@ aside hr {
 /* main */
 
 /* footer */
+footer {
+    background-color: black;
+}
+
+#container-colonne-footer {
+    width: 80%;
+    margin: 70px auto 30px;
+}
+
+.colonne {
+    color: white;
+    width: calc(100% / 5);
+    float: left;
+}
+
+.title-footer {
+    font-size: 25px;
+    padding: 70px 0 10px 0;
+}
+
+.text-footer {
+    display: block;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#lingua {
+    margin: 80px 0 40px;
+    border-top: white solid 1px;
+    color: white;
+    font-size: 12px;
+    padding: 40px 0 0px;
+    width: 60%;
+}
+
+#lingua span {
+    padding: 0 3px;
+}
 /* /footer */
