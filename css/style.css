@@ -375,7 +375,7 @@ aside hr {
     font-weight: bold;
 }
 .container-squares {
-    width: 30vw;
+    width: 30%;
     float: left;
     height: 30vw;
 }
@@ -388,7 +388,7 @@ aside hr {
 }
 
 .square img {
-    width: 70%;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -429,7 +429,7 @@ aside hr {
 .container-squares.center{
     padding: 0 50px;
     overflow: auto;
-    width: 40vw;
+    width: 40%;
 }
 
 .center img {
