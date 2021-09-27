@@ -64,7 +64,8 @@ nav {
 .menu-item {
     display: inline-block;
     list-style-type: none;
-    padding: 0 20px;
+    margin: 0 20px;
+    cursor: pointer;
 }
 
 .menu-item a {
@@ -83,6 +84,31 @@ nav {
     color: white;
     text-decoration: none;
 }
+
+/* bonus menu dropdown e hover */
+.menu-item:hover {
+    border-bottom: solid 2px black;
+}
+
+.menu-tendina {
+    background-color: white;
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 15px 70px 10px 10px;
+    line-height: 1.9;
+}
+
+.menu-item:hover > .menu-tendina {
+    display: block;
+}
+
+/* efetto bottone */
+.btn:hover {
+    background-color: rgba(0, 98, 255, 0.74)
+}
+/* /bonus menu a tendina e hover */
+
 /* /nav */
 
 /* jumbotron */
