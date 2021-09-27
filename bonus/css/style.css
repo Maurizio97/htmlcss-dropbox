@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.centratura {     /* sezione 1 2 3 5 */
+    width: 65%;
+    margin: 0 auto;
+}
+
+.block {
+    display: block;
+}
+/* header */
+
+/* nav */
+#sfondo-bianco {
+    background-color: white;
+    max-width: 100%;
+    height: 80px;
+    border-bottom: solid 1px grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; 
+}
+
+nav {
+    height: 100%;
+    margin: auto 30px;
+    line-height: 80px;
+    vertical-align: middle;
+    min-width: 1182px;
+}
+
+#nav-sx {
+    float: left;
+    max-width: 50%;
+}
+
+#logo {
+    transform: translateY(+20%);
+}
+
+.menu {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-dx {
+    float: right;
+    max-width: 50%;
+}
+
+.btn {
+    padding: 6px 16px;
+    background-color: rgb(0, 97, 255);
+    color: white;
+    text-decoration: none;
+}
+/* /nav */
+
+/* jumbotron */
+#sfondo-jumbotron {
+    background-color: rgb(180, 208, 231);
+}
+
+#jumbotron {
+    width: 80%;
+    margin: 0 auto ;
+    position: relative;
+    top: 90px;
+}
+
+h1 {
+    font-size: 86px;
+    font-weight: 800;
+    padding-top: 70px;
+}
+
+.col-sx {
+    float: left;
+    width: 30%;
+    padding-right: 50px;
+}
+
+p {
+    font-size: 18px;
+    padding: 30px 0;
+}
+
+#annulla {
+    padding: 15px 0 30px;
+    font-size: 14px;
+}
+
+#freccia {
+    display: block;
+    font-size: 55px;
+    color: black;
+}
+
+.col-dx {
+    float: left;
+    width: 70%;
+}
+
+.col-dx img {
+   height: 600px;
+   padding-top: 30px;
+   padding-left: 75px;
+}
+/* /jumbotron */
+
+/* main */
+
+.titolo-section#section-1 {
+    margin: 220px 0  40px;
+}
+
+/* section 1 */
+
+.titolo-section h2 {
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.titolo-section span {
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.fake-check {
+    border: solid 1px black;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.fake-check.checked {
+    border: solid 5px #0061ff;
+}
+
+#margin-section-1 {
+    margin: 0px 3%;
+}
+
+aside {
+    float: left;
+    width: 31%;
+    border: solid 1px black;
+    min-height: 1000px;
+    margin: 0 0 100px;
+}
+
+.title-aside {
+    text-align: center;
+    border-bottom: solid black 1px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.title-aside .fa-user {
+    font-size: 18px;
+}
+
+.centratura-contenuto {
+    padding: 0 25px;
+}
+
+aside h3 {
+    font-size: 30px;
+    margin: 30px 0 20px;
+}
+
+.contenuti-piano li {
+    font-size: 14px;
+    list-style-type: none;
+    margin: 20px 0;
+    padding-left: 16px;
+}
+
+.costo {
+    font-weight: bold;
+    margin: 18px 0;
+}
+
+.mese {
+    font-size: 14px;
+    color: grey;
+    margin: 18px 0 50px;
+}
+
+.items-key-points li {
+    font-size: 14px;
+    list-style-type: '\2713';
+    margin: 20px 0 20px 14px;
+    padding-left: 3px;
+}
+
+::marker {
+    color: rgb(2, 134, 241);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+aside .btn {
+    margin: 60px 0 30px;
+    max-width: 220px;
+}
+
+.acquista-ora {
+    margin: 30px 0;
+    display: block;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 15px;
+    margin-left: -16px;
+
+}
+aside hr {
+    margin: 40px 0 55px;
+    width: 50px;
+}
+
+.key-points {
+    font-size: 20px;
+}
+
+/* contatta ufficio vendite */
+#down-section1 {
+    width: 100%;
+    border: solid 1px black;
+}
+
+#content-down-section1 h3 {
+    font-size: 30px;
+    display: inline-block;
+    max-width: 50%;
+    margin: 20px 0 15px;
+}
+
+#container-btn-contatta {
+    float: right;
+    margin: 27px 0 15px;
+}
+
+#contatta {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+#text-dwn-section div{
+    margin: 0 0 25px;
+    font-weight: bold;
+}
+
+#text-dwn-section span{
+    padding-bottom: 20px;
+    display: inline-block;
+}
+/* /section 1 */
+
+
+/*  section 2*/
+
+#container-section-2 {
+    margin: 150px 0;
+}
+#col-sx {
+    width: 55%;
+    float: left;
+}
+
+#col-sx img {
+    max-width: 100%;
+}
+
+#col-dx {
+    width: 45%;
+    padding: 40px;
+    float: left;
+}
+
+.title-section {
+    font-size: 30px;
+}
+
+.text-section {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.white-black {
+    border: solid 1px black;
+    display: block;
+    background-color: white;
+    color: black;
+    width: 170px;
+    text-align: center;
+}
+/*  /section 2*/
+
+
+/* section 3 */
+#section-3 {
+    margin: 150px auto;
+}
+
+.col {
+    width: 29%;
+    float: left;
+}
+
+.col img {
+    max-width: 100%;
+}
+
+.margin-col-2 {
+    margin: 0 6.5%;
+}
+
+.text-section > span {
+    text-decoration: underline;
+}
+
+#row-2 {
+    margin-top: 100px ;
+}
+/* /section 3 */
+
+
+/* section 4 */
+#section-4 .titolo-section h2 {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+#section-4 .titolo-section {
+    margin-bottom: 50px;
+}
+
+#section-4 a {
+    color: rgb(0, 97, 255);
+    font-weight: bold;
+}
+
+.container-squares {
+    width: 30%;
+    float: left;
+    height: 30vw;
+}
+
+.square {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.square img {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.green {
+    background-color: rgb(162, 211, 155);
+    border: solid 15px rgb(208, 233, 205);
+}
+
+.bordeaux {
+    background-color: rgb(97, 8, 43);
+}
+
+.skyblue {
+    background-color: rgb(0, 147, 206);
+}
+
+.firered {
+    background-color: rgb(255, 28, 28);
+}
+
+.grey {
+    background-color: rgb(180, 208, 231);
+}
+
+.blue {
+    background-color: rgb(13, 36, 129);
+}
+
+.yellow {
+    background-color: rgb(255, 216, 48);
+}
+
+/* quadrato centrale  */
+.container-squares.center{
+    padding: 0 50px;
+    overflow: auto;
+    width: 40%;
+}
+
+.center img {
+    width: 150px;
+    margin: 50px 0px 30px;
+}
+
+.center hr {
+    width: 50px;
+    margin-bottom: 50px;
+}
+/* quadrato centrale  */
+
+/* /section 4 */
+
+
+
+/* section 5 */
+
+/* banner con bottone prova */
+#sfondo-section-5 {
+    position: relative;
+    background-color: rgb(180, 208, 231);
+}
+
+#banner-prova > div {
+    padding: 180px 0;
+}
+
+#banner-prova h2 {
+    color: rgb(97, 8, 43);
+    float: left;
+    font-size: 50px;
+    width: 50%;
+}
+
+#prova-gratuita {
+    float: right;
+    width: 300px;
+    padding: 8px 0;
+}
+
+#container-btn-section-5 {
+    width: 50%;
+    display: inline-block;
+}
+/* banner con bottone prova */
+
+
+/* domande frequenti */
+.domande-frequenti {
+    margin-top: 130px;
+}
+
+.domande-frequenti h2 {
+    font-size: 35px;
+    border-bottom: solid 1px black;
+    padding-bottom: 35px;
+}
+
+.item-question {
+    height: 80px;
+    border-bottom: solid 1px black;
+}
+
+.item-question span {
+    display: inline-block;
+    font-weight: bold;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.fa-chevron-down {
+    float: right;
+    font-size: 18px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+/* /domande frequenti */
+
+/* /section 5 */
+/* main */
+
+
+/* footer */
+footer {
+    background-color: black;
+}
+
+#container-colonne-footer {
+    width: 80%;
+    margin: 70px auto 30px;
+}
+
+.colonne {
+    color: white;
+    width: calc(100% / 5);
+    float: left;
+}
+
+.title-footer {
+    font-size: 25px;
+    padding: 70px 0 10px 0;
+}
+
+.text-footer {
+    display: block;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#lingua {
+    margin: 80px 0 40px;
+    border-top: white solid 1px;
+    color: white;
+    font-size: 12px;
+    padding: 40px 0 0px;
+    width: 60%;
+}
+
+#lingua span {
+    padding: 0 3px;
+}
+/* /footer */
