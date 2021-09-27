@@ -44,7 +44,7 @@ nav {
     margin: auto 30px;
     line-height: 80px;
     vertical-align: middle;
-    
+    min-width: 1182px;
 }
 
 #nav-sx {
@@ -88,25 +88,24 @@ nav {
 /* jumbotron */
 #sfondo-jumbotron {
     background-color: rgb(180, 208, 231);
-    height: 845px;
-    margin-top: 80px;
 }
 
 #jumbotron {
     width: 80%;
     margin: 0 auto ;
+    position: relative;
+    top: 90px;
 }
 
 h1 {
     font-size: 86px;
     font-weight: 800;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 .col-sx {
     float: left;
     width: 30%;
-    height: 400px;
     padding-right: 50px;
 }
 
@@ -129,7 +128,6 @@ p {
 .col-dx {
     float: left;
     width: 70%;
-    height: 400px;
 }
 
 .col-dx img {
@@ -154,6 +152,20 @@ p {
 
 .titolo-section span {
     padding-right: 5px;
+    vertical-align: middle;
+}
+
+.fake-check {
+    border: solid 1px black;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.fake-check.checked {
+    border: solid 5px #0061ff;
 }
 
 #margin-section-1 {
@@ -193,6 +205,7 @@ aside h3 {
     font-size: 14px;
     list-style-type: none;
     margin: 20px 0;
+    padding-left: 16px;
 }
 
 .costo {
@@ -233,6 +246,7 @@ aside .btn {
 .icon {
     display: inline-block;
     font-size: 15px;
+    margin-left: -16px;
 
 }
 aside hr {
@@ -257,8 +271,7 @@ aside hr {
     margin: 20px 0 15px;
 }
 
-#contanier-btn-contatta {
-    display: inline-block;
+#container-btn-contatta {
     float: right;
     margin: 27px 0 15px;
 }
@@ -361,10 +374,10 @@ aside hr {
     color: rgb(0, 97, 255);
     font-weight: bold;
 }
-.squares-principal {
-    width: calc(100% / 3);
+.container-squares {
+    width: 30vw;
     float: left;
-    height: 480px;
+    height: 30vw;
 }
 
 .square {
@@ -375,11 +388,12 @@ aside hr {
 }
 
 .square img {
-    max-width: 150px;
+    width: 70%;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .green {
@@ -412,9 +426,10 @@ aside hr {
 }
 
 /* quadrato centrale  */
-.squares-principal.center{
+.container-squares.center{
     padding: 0 50px;
     overflow: auto;
+    width: 40vw;
 }
 
 .center img {
