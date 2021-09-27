@@ -332,6 +332,7 @@ aside hr {
 }
 /*  /section 2*/
 
+
 /* section 3 */
 #section-3 {
     margin: 150px auto;
@@ -359,8 +360,8 @@ aside hr {
 }
 /* /section 3 */
 
-/* section 4 */
 
+/* section 4 */
 #section-4 .titolo-section h2 {
     width: 60%;
     margin-bottom: 30px;
@@ -374,6 +375,7 @@ aside hr {
     color: rgb(0, 97, 255);
     font-weight: bold;
 }
+
 .container-squares {
     width: 30%;
     float: left;
@@ -489,6 +491,7 @@ aside hr {
     border-bottom: solid 1px black;
     padding-bottom: 35px;
 }
+
 .item-question {
     height: 80px;
     border-bottom: solid 1px black;
@@ -510,8 +513,8 @@ aside hr {
 /* /domande frequenti */
 
 /* /section 5 */
-
 /* main */
+
 
 /* footer */
 footer {
