@@ -104,7 +104,7 @@ nav {
 }
 
 /* efetto bottone */
-.btn:hover {
+.btn:hover.hover{
     background-color: rgba(0, 98, 255, 0.74)
 }
 /* /bonus menu a tendina e hover */
