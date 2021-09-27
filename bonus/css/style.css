@@ -519,23 +519,42 @@ aside hr {
 }
 
 .item-question {
-    height: 80px;
     border-bottom: solid 1px black;
+    cursor: pointer;
 }
 
 .item-question span {
     display: inline-block;
     font-weight: bold;
-    line-height: 80px;
     vertical-align: middle;
+    padding: 30px 0;
 }
 
 .fa-chevron-down {
     float: right;
     font-size: 18px;
-    line-height: 80px;
+    padding: 30px 0;   
     vertical-align: middle;
 }
+/* bonus risposte */
+.risposte {
+    color: grey;
+    font-size: 16px;
+    width: 95%; 
+    display: none;
+    padding-bottom: 10px;
+}
+
+.item-question:hover > .risposte {
+    display: block;
+}
+
+.item-question:hover > i {
+    transform: rotate(180deg);
+    color: grey;
+}
+/* /bonus risposte */
+
 /* /domande frequenti */
 
 /* /section 5 */
